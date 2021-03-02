@@ -274,4 +274,21 @@ h1.meal-name {
 #show-more:hover {
   background: #d44604;
 }
-
+@media screen and (max-width:900px){
+  .recipe-card{
+    width: 70%;
+    left: 15%;
+  }
+}
+@media screen and (max-width:750px){
+  .recipe-card{
+    width: 80%;
+    left: 10%;
+  }
+}
+@media screen and (max-width:600px){
+  .recipe-card{
+    width: 90%;
+    left: 5%;
+  }
+}
