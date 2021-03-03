@@ -147,6 +147,7 @@ label[for="search-btn"] :hover {
 }
 .recipe-card {
   position: fixed;
+  z-index:20;
   display: flex;
   justify-content: center;
   top: 2%;
