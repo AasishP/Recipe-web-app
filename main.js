@@ -86,7 +86,7 @@ function getMealsByName(name) {
 }
 
 function getSearchResults(element) {
-  if (element.value != "") {
+  if (element.value) {
     getMealsByName(element.value).then((res) => {
       let listItems = "";
       if (res.meals) {
